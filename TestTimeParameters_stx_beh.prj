@@ -1,0 +1,3 @@
+verilog isim_temp "TimeParameters.v"
+verilog isim_temp "TestTimeParameters.v"
+verilog isim_temp "/home/anjalee/Programs/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

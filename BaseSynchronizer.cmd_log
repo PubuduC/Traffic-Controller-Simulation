@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/anjalee/Documents/XilinxProjects/Traffic-Light-Controller-Simulation/BaseSynchronizer.xst" -ofn "/home/anjalee/Documents/XilinxProjects/Traffic-Light-Controller-Simulation/BaseSynchronizer.syr" 

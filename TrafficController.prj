@@ -1,0 +1,8 @@
+verilog work "BaseSynchronizer.v"
+verilog work "WalkRegister.v"
+verilog work "TrafficControllerFSM.v"
+verilog work "Timer.v"
+verilog work "TimeParameters.v"
+verilog work "Synchronizer.v"
+verilog work "Divider.v"
+verilog work "TrafficController.v"

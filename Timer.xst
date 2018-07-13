@@ -1,0 +1,5 @@
+set -tmpdir "/home/anjalee/Documents/XilinxProjects/Traffic-Light-Controller-Simulation/xst/projnav.tmp"
+set -xsthdpdir "/home/anjalee/Documents/XilinxProjects/Traffic-Light-Controller-Simulation/xst"
+elaborate
+-ifn Timer.prj
+-ifmt mixed

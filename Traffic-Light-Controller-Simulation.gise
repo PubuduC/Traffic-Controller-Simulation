@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Traffic-Light-Controller-Simulation.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="BaseDebouncer.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="BaseDebouncer.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="BaseDebouncer.xst"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="BaseSynchronizer.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="BaseSynchronizer.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="BaseSynchronizer.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="BaseSynchronizer.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="BaseSynchronizer.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="BaseSynchronizer.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="BaseSynchronizer.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="BaseSynchronizer.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="BaseSynchronizer_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="BaseSynchronizer_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Debouncer.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Debouncer.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Debouncer.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Divider.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Divider.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Divider.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Divider_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Synchronizer.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Synchronizer.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Synchronizer.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Synchronizer.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Synchronizer.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Synchronizer.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Synchronizer.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Synchronizer.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Synchronizer.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Synchronizer.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Synchronizer_envsettings.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Synchronizer_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Synchronizer_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Synchronizer_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Synchronizer_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Synchronizer_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TestDivider_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TestDivider_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TestFSMInterrupts_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TestFSMNormalRoutine_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TestFSMReprogram_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TestFSMTrafficSensorInterrupt_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TestFSMTrafficSensorInterrupt_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TestFSMTrafficSensorInterrupt_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TestFSMWRInterrupt_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TestFSMWalkRequest_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TestFSM_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TestTimeParam_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TestTimeParameters_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TestTimeParameters_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TestTimeParameters_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TestTimeParameters_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TestTimer_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TestTrafficController_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TestTrafficController_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TestWalkRegister_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TestWalkRegister_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TestWalkRegister_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TestWalkRegister_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TimeParameters.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="TimeParameters.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="TimeParameters.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Timer.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Timer.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Timer.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Timer_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="TrafficController.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="TrafficController.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="TrafficController.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="TrafficController.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="TrafficController.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="TrafficController.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TrafficController.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="TrafficController.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="TrafficController.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="TrafficController.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TrafficControllerFSM.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="TrafficControllerFSM.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="TrafficControllerFSM.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TrafficControllerFSM_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="TrafficController_envsettings.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="TrafficController_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="TrafficController_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="TrafficController_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="TrafficController_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="TrafficController_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TrafficTest.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="TrafficTest.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="TrafficTest.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="WalkRegister.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="WalkRegister.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="WalkRegister.xst"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="netgen"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/TrafficController_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="netgen/synthesis/TrafficController_synthesis.v"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="test.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="test.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testtest_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1531117329" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1531117329">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1531471659" xil_pn:in_ck="2367148783418504530" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1531471659">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="BaseDebouncer.v"/>
+      <outfile xil_pn:name="BaseSynchronizer.v"/>
+      <outfile xil_pn:name="Debouncer.v"/>
+      <outfile xil_pn:name="Divider.v"/>
+      <outfile xil_pn:name="Synchronizer.v"/>
+      <outfile xil_pn:name="TestDivider.v"/>
+      <outfile xil_pn:name="TestFSMInterrupts.v"/>
+      <outfile xil_pn:name="TestFSMNormalRoutine.v"/>
+      <outfile xil_pn:name="TestFSMReprogram.v"/>
+      <outfile xil_pn:name="TestFSMTrafficSensorInterrupt.v"/>
+      <outfile xil_pn:name="TestFSMWRInterrupt.v"/>
+      <outfile xil_pn:name="TestTimeParam.v"/>
+      <outfile xil_pn:name="TestTimer.v"/>
+      <outfile xil_pn:name="TestTrafficController.v"/>
+      <outfile xil_pn:name="TestWalkRegister.v"/>
+      <outfile xil_pn:name="TimeParameters.v"/>
+      <outfile xil_pn:name="Timer.v"/>
+      <outfile xil_pn:name="TrafficController.v"/>
+      <outfile xil_pn:name="TrafficControllerFSM.v"/>
+      <outfile xil_pn:name="WalkRegister.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1531470582" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-2618805280601674389" xil_pn:start_ts="1531470582">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1531470582" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="1972618075902693997" xil_pn:start_ts="1531470582">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1531117329" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="7577570063459604130" xil_pn:start_ts="1531117329">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1531471659" xil_pn:in_ck="2367148783418504530" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1531471659">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="BaseDebouncer.v"/>
+      <outfile xil_pn:name="BaseSynchronizer.v"/>
+      <outfile xil_pn:name="Debouncer.v"/>
+      <outfile xil_pn:name="Divider.v"/>
+      <outfile xil_pn:name="Synchronizer.v"/>
+      <outfile xil_pn:name="TestDivider.v"/>
+      <outfile xil_pn:name="TestFSMInterrupts.v"/>
+      <outfile xil_pn:name="TestFSMNormalRoutine.v"/>
+      <outfile xil_pn:name="TestFSMReprogram.v"/>
+      <outfile xil_pn:name="TestFSMTrafficSensorInterrupt.v"/>
+      <outfile xil_pn:name="TestFSMWRInterrupt.v"/>
+      <outfile xil_pn:name="TestTimeParam.v"/>
+      <outfile xil_pn:name="TestTimer.v"/>
+      <outfile xil_pn:name="TestTrafficController.v"/>
+      <outfile xil_pn:name="TestWalkRegister.v"/>
+      <outfile xil_pn:name="TimeParameters.v"/>
+      <outfile xil_pn:name="Timer.v"/>
+      <outfile xil_pn:name="TrafficController.v"/>
+      <outfile xil_pn:name="TrafficControllerFSM.v"/>
+      <outfile xil_pn:name="WalkRegister.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1531471661" xil_pn:in_ck="2367148783418504530" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4771879806614174007" xil_pn:start_ts="1531471659">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="TestWalkRegister_beh.prj"/>
+      <outfile xil_pn:name="TestWalkRegister_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1531471661" xil_pn:in_ck="-8701082422813560055" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-253051245050396337" xil_pn:start_ts="1531471661">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="TestWalkRegister_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1530939824" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1530939824">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1531312531" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="4459746733702511964" xil_pn:start_ts="1531312531">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1531312531" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="7577570063459604130" xil_pn:start_ts="1531312531">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1530939824" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1530939824">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1531312531" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-9087483555372082214" xil_pn:start_ts="1531312531">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1530939824" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297158069842" xil_pn:start_ts="1530939824">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1531312531" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-740618249699246356" xil_pn:start_ts="1531312531">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1531450652" xil_pn:in_ck="4459302676241621459" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="1226335511387428469" xil_pn:start_ts="1531450643">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="BaseSynchronizer.ngr"/>
+      <outfile xil_pn:name="Synchronizer.ngr"/>
+      <outfile xil_pn:name="TrafficController.lso"/>
+      <outfile xil_pn:name="TrafficController.ngc"/>
+      <outfile xil_pn:name="TrafficController.ngr"/>
+      <outfile xil_pn:name="TrafficController.prj"/>
+      <outfile xil_pn:name="TrafficController.stx"/>
+      <outfile xil_pn:name="TrafficController.syr"/>
+      <outfile xil_pn:name="TrafficController.xst"/>
+      <outfile xil_pn:name="TrafficControllerFSM.prj"/>
+      <outfile xil_pn:name="TrafficControllerFSM_stx_beh.prj"/>
+      <outfile xil_pn:name="TrafficController_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1531320249" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-4819446366161849979" xil_pn:start_ts="1531320249">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1531320263" xil_pn:in_ck="7093370868274933804" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-2257904703842519995" xil_pn:start_ts="1531320255">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1531320267" xil_pn:in_ck="6719959735570891775" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-5849673150125579957" xil_pn:start_ts="1531320263">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1531320252" xil_pn:in_ck="7093370868274933804" xil_pn:name="TRAN_postSynthesisSimModel" xil_pn:prop_ck="4048230672568932055" xil_pn:start_ts="1531320249">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+  </transforms>
+
+</generated_project>

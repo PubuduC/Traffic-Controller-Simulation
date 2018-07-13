@@ -1,0 +1,2 @@
+verilog isim_temp "TrafficControllerFSM.v"
+verilog isim_temp "/home/anjalee/Programs/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
